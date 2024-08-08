@@ -12,3 +12,15 @@
 // to install the node modules and
 // npm run dev
 // to launch your react project in your browser
+import React from "react";
+import ReactDOM from "react-dom";
+
+const yourName = "Finley";
+const currentYear = new Date().getFullYear();
+
+ReactDOM.render(
+    <div>
+        <p>Created by {yourName}</p>
+        <p>Copyright {currentYear}</p>
+    </div>, document.getElementById("root")
+);
